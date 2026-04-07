@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Portefólio - Bernardo Carmo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #1e1e2f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00adb5;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #00adb5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .swot {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        footer {
+            background: #1e1e2f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 3px solid #00adb5;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="20250907_1730022.jpg" alt="Foto Bernardo" class="profile-img">
+    <h1>Bernardo Carmo</h1>
+    <p>Engenharia Informática | Programador</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#portfolio">Portefólio</a>
+    <a href="#swot">SWOT</a>
+    <a href="#contactos">Contactos</a>
+</nav>
+
+<section id="sobre">
+    <div class="container">
+        <div class="card">
+            <h2>Sobre Mim</h2>
+            <p>
+                Sou estudante de Engenharia Informática com formação em programação e desenvolvimento de aplicações.
+                Tenho experiência em C#, Java, SQL e desenvolvimento web (HTML e CSS), bem como ASP.NET.
+            </p>
+            <p>
+                Sou uma pessoa motivada, com forte capacidade de resolução de problemas, adaptabilidade e boa gestão do tempo.
+            </p>
+
+            <h3>Links Importantes</h3>
+            <a class="btn" href="../Currículo CC Bernardo.pdf" target="_blank">📄 Ver CV</a>
+            <a class="btn" href="../Carta de apresentação - Bernardo do Carmo.pdf" target="_blank">📄 Carta de Apresentação</a>
+            <a class="btn" href="https://www.linkedin.com/in/Bernardo-Carmo" target="_blank">🔗 LinkedIn</a>
+	    <a class="btn" href="../VideoCV.mp4" target="_blank">🎞️Vídeo CV</a>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="container">
+        <h2>Portefólio</h2>
+
+        <div class="portfolio-grid">
+
+            <div class="card portfolio-item">
+                <h3>Aplicação de Gestão de Despesas</h3>
+                <img src="ImageDespesa.png" alt="Projeto">
+                <p>Aplicação desenvolvida em ASP.NET para gestão de receitas e despesas.</p>
+                <a class="btn" href="ImageDespesa.png" target="_blank">Ver Galeria</a>
+            </div>
+
+            <div class="card portfolio-item">
+                <h3>Aplicação de Gestão de Associações</h3>
+                <img src="imagemAssoc2.png" alt="Projeto">
+                <p>Sistema de gestão desenvolvido durante estágio em ambiente real.</p>
+                <a class="btn" href="imagemAssoc2.png" target="_blank">Ver Galeria</a>
+            </div>
+
+            <div class="card portfolio-item">
+                <h3>Videojogo - Track Racing</h3>
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2641030/491e8c6cb5435ac5fb5cffeface68127a570cb52/ss_491e8c6cb5435ac5fb5cffeface68127a570cb52.1920x1080.jpg?t=1767033444" alt="Jogo">
+                <p>Jogo desenvolvido em Unity com C#. Disponível na Steam.</p>
+                <a class="btn" href="https://store.steampowered.com/app/2641030/Track_Racing_The_Holy_Rosary/" target="_blank">Ver na Steam</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="swot">
+    <div class="container">
+        <h2>Análise SWOT</h2>
+
+        <div class="swot">
+
+            <div class="card">
+                <h3>Forças</h3>
+                <ul>
+                    <li>Boa capacidade de resolução de problemas</li>
+                    <li>Conhecimentos técnicos sólidos</li>
+                    <li>Experiência em estágio real</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Fraquezas</h3>
+                <ul>
+                    <li>Pouca experiência profissional formal</li>
+                    <li>Ainda em início de carreira</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Oportunidades</h3>
+                <ul>
+                    <li>Crescimento na área de tecnologia</li>
+                    <li>Possibilidade de evolução rápida</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Ameaças</h3>
+                <ul>
+                    <li>Mercado competitivo</li>
+                    <li>Necessidade constante de atualização</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contactos">
+    <div class="container">
+        <div class="card">
+            <h2>Contactos</h2>
+            <p>📞 961014426</p>
+            <p>📧 a22509596@alunos.ulht.pt</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Bernardo Carmo</p>
+</footer>
+
+</body>
+</html>
+```
